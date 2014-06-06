@@ -1,0 +1,23 @@
+{
+  "name": "myRestifyApp", 
+  "version": "0.0.1",
+  "description": "A simple Restify Application Skeleton",
+  "author": {
+    "name": "Oleg Cherniy",
+    "email": "oleg.cherniy@gmail.com"
+  },
+  "dependencies": {
+    "config": "*",
+    "restify": "*"
+  },
+  "devDependencies": {
+    "jasmine-node": ">=2.0.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}
