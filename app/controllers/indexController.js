@@ -1,21 +1,16 @@
 (function () {
     "use strict";
 
-    var db = [
-        {id:0, name: "test0" },
-        {id:1, name: "test1" },
-        {id:2, name: "test2" }
-    ];
+    var myDb = require('../managers/testDbManager');
 
     module.exports = {
       list: function listAction (req, res, next) {
-        res.send(db);
+        res.send(myDb.getAll());
         return next();
       },
 
       getId: function getIdAction (req, res, next) {
-        var id = parseInt(req.params.id);
-        res.send(db[id]);
+        res.send(myDb.getById(req.params.id));
         return next();
       }
     }
