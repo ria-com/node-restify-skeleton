@@ -30,6 +30,6 @@ simple test
 
 **Make your own spec-file for testing and start test:**
 
-   my_comp$ cd my_new_project
-   my_new_project$ npm install
-   my_new_project$ npm test
+    my_comp$ cd my_new_project
+    my_new_project$ npm install
+    my_new_project$ npm test
