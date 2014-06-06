@@ -6,13 +6,13 @@ A simple [Restify Application Skeleton](https://github.com/ria-com/node-restify-
 quick start
 ===========
 
-**Checkout skeleton:**
+**Checkout node-restify-skeleton:**
 
     my_comp$ git clone https://github.com/ria-com/node-restify-skeleton
-    my_comp$ mv node-restify-skeleton my_new_project
 
 **Make your own new project:**
 
+    my_comp$ mv node-restify-skeleton my_new_project
     my_comp$ cd my_new_project
     my_new_project$ rm -rf .git
 
