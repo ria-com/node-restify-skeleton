@@ -9,27 +9,27 @@ quick start
 **Checkout node-restify-skeleton:**
 
 ```sh
-my_comp$ git clone https://github.com/ria-com/node-restify-skeleton
+$ git clone https://github.com/ria-com/node-restify-skeleton
 ```
 
 **Make your own new project:**
 
 ```sh
-my_comp$ mv node-restify-skeleton my_new_project
-my_comp$ cd my_new_project
-my_new_project$ rm -rf .git
+$ mv node-restify-skeleton my_new_project
+$ cd my_new_project
+$ rm -rf .git
 ```
 
 **Edit package.json:**
 
 ```sh
-my_new_project$ vi package.json
+$ vi package.json
 ```
 
 **Edit config/* files:**
 
 ```sh
-my_new_project$ vi config/default.js
+$ vi config/default.js
 ```
 
 simple test
@@ -38,7 +38,7 @@ simple test
 **Make your own spec-file for testing and start test:**
 
 ```sh
-my_comp$ cd my_new_project
-my_new_project$ npm install
-my_new_project$ npm test
+$ cd my_new_project
+$ npm install
+$ npm test
 ```
